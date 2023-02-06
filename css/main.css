@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubunto', sans-serif;
 }
 
 
@@ -194,7 +194,7 @@ textarea {
 }
 
 .content > h1{
-  font-weight: 400;
+  font-weight: 200;
   text-align: center;
 }
 
@@ -202,7 +202,25 @@ textarea {
   color: rgb(30, 175, 222);
 }
 
+.section-one{
+  display: grid;
+  place-items: center;
+}
 
+.section-one-content{
+display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: auto;
+gap: 20px;
+}
+
+.section-one-content>div{
+  font-size: 0.75rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+ width: 15rem;
+}
 
 .LargeImg {
   width: 30em;
