@@ -232,14 +232,14 @@ textarea {
 }
 
 .LargeImg {
-  width: 30em;
-  height: 30em;
+  width: 19em;
+  height: 15em;
 }
 
 .section-two-content{
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 2em;
+  gap: 3em;
   justify-content: center;
 }
 .section-three,
@@ -249,7 +249,7 @@ textarea {
 .section-three-content {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 2em;
+  gap: 3em;
   justify-content: center;
 }
 
