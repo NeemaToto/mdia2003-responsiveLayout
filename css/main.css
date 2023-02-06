@@ -133,21 +133,24 @@ textarea {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.navcontentlinks a{
+.navcontentlinks a {
   color: white;
   text-decoration: none;
 }
-.navlinksicon{
+
+.navlinksicon {
   padding: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.navlinksicon i{
+
+.navlinksicon i {
   font-size: larger;
   color: white;
 }
-.navlinkiconbg{
+
+.navlinkiconbg {
   width: 2.5em;
   height: 2.5em;
   background-color: rgba(255, 255, 255, 0.212);
@@ -156,29 +159,35 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-.navlinktextbox{
+
+.navlinktextbox {
   display: flex;
   justify-content: space-between;
   padding: 1em;
   align-items: flex-end;
 }
-.navlinktextbox h5{
+
+.navlinktextbox h5 {
   margin: 0;
 }
 
-.navhome{
+.navhome {
   background-color: rgb(109, 189, 109);
 }
-.navpage{
+
+.navpage {
   background-color: rgb(238, 193, 88);
 }
-.navblog{
+
+.navblog {
   background-color: rgb(240, 104, 104);
 }
-.navportfolio{
+
+.navportfolio {
   background-color: rgb(64, 154, 184);
 }
-.navemail{
+
+.navemail {
   background-color: rgb(75, 96, 165);
 }
 
@@ -187,18 +196,18 @@ textarea {
   display: none;
 }
 
-.navhide{
+.navhide {
   top: 4rem;
-  position:absolute;
+  position: absolute;
   z-index: 999;
 }
 
-.content > h1{
+.content>h1 {
   font-weight: 200;
   text-align: center;
 }
 
-.content > h1 > span{
+.content>h1>span {
   color: rgb(30, 175, 222);
 }
 
@@ -217,7 +226,7 @@ textarea {
   gap: 20px;
 }
 
-.section-one-content>div{
+.section-one-content>div {
   font-size: 0.75rem;
   text-align: center;
   display: grid;
@@ -278,10 +287,26 @@ border-width: 0.2rem;
 }
 
 .LargeImg {
-  width: 30em;
-  height: 30em;
+  width: 19em;
+  height: 15em;
 }
 
+.section-two-content{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3em;
+  justify-content: center;
+}
+.section-three,
+.section-two {
+  text-align: center;
+}
+.section-three-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 3em;
+  justify-content: center;
+}
 
 
 
@@ -305,15 +330,16 @@ border-width: 0.2rem;
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
 
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -375,4 +401,3 @@ border-width: 0.2rem;
     page-break-after: avoid;
   }
 }
-
