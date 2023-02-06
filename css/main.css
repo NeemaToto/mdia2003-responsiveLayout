@@ -7,6 +7,7 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -102,6 +103,16 @@ textarea {
 .navbarRow {
   row-gap: 1rem;
   display: grid;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.35rem;
+  margin-right: 1rem;
+  margin-left: 0.3rem;
 }
 
 .c-navbar {
@@ -113,7 +124,7 @@ textarea {
 .navbarlogo {
   display: flex;
   align-items: flex-end;
-  padding: 1em 1em 0 0em;
+  padding: 1em 0.2em 0 0em;
   font-size: xx-large;
 }
 
@@ -194,26 +205,8 @@ textarea {
 
 
 .LargeImg {
-  width: 25em;
-  height: 25em;
-}
-.section-three{
-  text-align: center;
-}
-.section-three-content{
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  justify-items: center;
-  gap: 1em;
-}
-.section-two{
-  text-align: center;
-}
-.section-two-content{
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  justify-items: center;
-  gap: 1em;
+  width: 30em;
+  height: 30em;
 }
 
 
