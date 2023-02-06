@@ -203,15 +203,18 @@ textarea {
 }
 
 .section-one{
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-one-content{
-display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-auto-rows: auto;
-gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .section-one-content>div{
@@ -219,7 +222,59 @@ gap: 20px;
   text-align: center;
   display: grid;
   place-items: center;
- width: 15rem;
+  width: 15rem;
+}
+
+.section-one-content>div>h4{
+  margin-bottom: 0px;
+}
+
+.header2-subtext{
+  color: #999;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+}
+
+.section-one>div>h2{
+  margin: 0px;
+}
+
+.fa-lightbulb{
+  width: 4rem;
+  color: rgb(254, 185, 2);
+font-size: 3rem;
+padding: 0.7rem;
+border-style: solid;
+border-width: 0.2rem;
+}
+
+.fa-images{
+  width: 4rem;
+color: rgb(37, 195, 137);
+font-size: 3rem;
+padding: 0.7rem;
+border-style: solid;
+border-width: 0.2rem;
+}
+
+.fa-gears{
+  width: 4rem;
+  color: rgb(231, 97, 94);
+font-size: 3rem;
+padding: 0.7rem;
+border-style: solid;
+border-width: 0.2rem;
+}
+
+.fa-pencil{
+  width: 4rem;
+  color: rgb(31, 168, 212);
+font-size: 3rem;
+padding: 0.7rem;
+border-style: solid;
+border-width: 0.2rem;
 }
 
 .LargeImg {
