@@ -7,7 +7,6 @@ html {
   font-family: 'Ubunto', sans-serif;
 }
 
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -213,8 +212,26 @@ gap: 20px;
 }
 
 .LargeImg {
-  width: 30em;
-  height: 30em;
+  width: 25em;
+  height: 25em;
+}
+.section-three{
+  text-align: center;
+}
+.section-three-content{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  gap: 1em;
+}
+.section-two{
+  text-align: center;
+}
+.section-two-content{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  gap: 1em;
 }
 
 
