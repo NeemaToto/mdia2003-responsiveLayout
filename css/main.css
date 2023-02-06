@@ -192,14 +192,83 @@ textarea {
 }
 
 
-.hide {
-  display: none;
+/* hero */
+
+
+.c-gallery {
+  height: 30em;
+  background-image: url(../img/minyan.png);
 }
 
-.navhide {
-  top: 4rem;
-  position: absolute;
-  z-index: 999;
+.con-gallery{
+  height: 20em;
+}
+
+.gallerycontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallerycontenttext {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.3em 1em 0.3em 1em;
+  width: fit-content;
+}
+.gallerycontenttext:first-child {
+  margin-left: 5rem;
+  margin-top: 10rem;
+  border-left: 0.4em solid rgb(22, 22, 92);
+}
+.gallerycontenttext:nth-child(2) {
+  border-left: 0.4em solid rgb(209, 75, 38);
+  margin-left: 5rem;
+}
+.gallerycontenttext:last-child {
+  border-left: 0.4em solid rgb(216, 186, 104);
+  margin-left: 5rem;
+}
+
+.gallerycontenttext h3 {
+  text-align: left;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 40em) {
+  .row {
+    max-width: 70rem;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin: auto;
+  }
+  .grid {
+    display: grid;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+  }
 }
 
 .content>h1 {
